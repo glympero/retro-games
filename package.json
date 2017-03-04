@@ -1,0 +1,38 @@
+{
+  "name": "retro-games",
+  "version": "1.0.0",
+  "description": "A fun app written in Node.js/React/Redux",
+  "main": "server.js",
+  "repository": "git@github.com:glympero/retro-games.git",
+  "author": "Georgios Lymperopoulos <glympe77@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "api": "babel-node server.js",
+    "build": "NODE_ENV=build webpack"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.5",
+    "morgan": "^1.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.2",
+    "file-loader": "^0.10.1",
+    "react-hot-loader": "3.0.0-beta.6",
+    "style-loader": "^0.13.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^1.0.2",
+    "webpack-validator": "^2.2.9"
+  }
+}
